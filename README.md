@@ -1,4 +1,4 @@
-# RCAS (Risky Computer Architecture Set) ⚛️💻
+# RCAS (Risky Computer Architecture Set)
 **Open Manifest for a Hybrid Quantum-Classical Controller Architecture**
 
 *(Русская версия манифеста находится ниже / Russian version is below)*
