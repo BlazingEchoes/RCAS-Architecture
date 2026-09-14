@@ -42,12 +42,12 @@ if __name__ == "__main__":
     HAD Q0
     MEAS Q0, [15]  
     """
-    print("Компиляция программы RCAS v1.0...")
+    print("Компиляция программы RCAS v1.0")
     bin_code = rcas_assemble(source)
     
     # Записываем бинарник в файл для процессора
     with open("program.bin", "w") as f:
         f.write(bin_code)
         
-    print(f"Бинарный код успешно сохранен в 'program.bin'")
+    print(f"Бинарный код сохранен в 'program.bin'")
     print(f"Размер прошивки: {len(bin_code)} бит ({len(bin_code)//8} байт)")
